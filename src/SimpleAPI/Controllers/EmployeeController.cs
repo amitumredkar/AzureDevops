@@ -27,6 +27,7 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public Employee Get(int id)
         {
+            //get single employee
             return _employeeRepository.GetEmployee(id);
         }
 
